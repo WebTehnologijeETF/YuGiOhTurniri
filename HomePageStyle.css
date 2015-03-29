@@ -8,10 +8,22 @@
   min-width: 100%;
   min-height: 100%;
 }
-#logo{
+.logo_class{
 	position:absolute;
 	top: 40px;
 	left: 15%;
+	height: 200px;
+}
+.logo_class {
+	font-family:'Varela Round', sans-serif;
+	text-transform: uppercase;
+}
+.logo_class h2{
+	margin-left: 30px;
+	margin-top: -20px;
+	font-weight: bold;
+	color: white;
+	text-shadow: 2px 2px 8px black;
 }
 
 .persona_nav {
@@ -231,9 +243,10 @@ margin-right: 25px;
 #left #telephone{
 	margin-top: 10px;
 }
-#right #links #li li{
-	display: block;
-	margin-right: 5px;
+#right #li {
+  width: 120px;
+  list-style: none;
+  padding: 0;
 }
 #turniri section{
 	position: relative;
