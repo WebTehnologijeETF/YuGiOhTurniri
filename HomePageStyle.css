@@ -231,8 +231,9 @@ margin-right: 25px;
 #left #telephone{
 	margin-top: 10px;
 }
-#right #links li{
-	
+#right #links #li li{
+	display: block;
+	margin-right: 5px;
 }
 #turniri section{
 	position: relative;
