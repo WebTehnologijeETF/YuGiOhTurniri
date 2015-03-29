@@ -176,7 +176,7 @@ margin-right: 25px;
 
 #left{
 	width: 600px;
-	height: 500px;
+	height: 550px;
 	background-color: rgba(165, 165, 165,0.5);
 	position: relative;
 	float: left;
@@ -184,7 +184,7 @@ margin-right: 25px;
 }
 #right{
 	width: 225px;
-	height:500px;
+	height:550px;
 	background-color: rgba(165, 165, 165,0.5);
 	position: relative;
 	float: left;
@@ -213,6 +213,7 @@ margin-right: 25px;
 	display: inline;
 	width: 452px;
 }  
+
 #left #subject p{
 	margin-right: 28px;
 	display: inline;
@@ -220,8 +221,16 @@ margin-right: 25px;
 #left #email p{
 	margin-left: 15px;
 	display: inline;
+	margin-right: 25px;
 }
-
+#left #telephone p{
+	margin-left: 15px;
+	display: inline;
+	margin-right: 2px;
+}
+#left #telephone{
+	margin-top: 10px;
+}
 #right #links li{
 	
 }
