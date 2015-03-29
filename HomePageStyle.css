@@ -76,6 +76,7 @@
 	list-style-type: none;
 	padding: 0px;
 	margin: 0px;
+
 }
 .menu li{
 	background-image: url("file:///C:/Users/LavaGolem/Documents/GitHub/YuGiOhTurniri/Slike/Silver.jpg");
@@ -243,11 +244,11 @@ margin-right: 25px;
 #left #telephone{
 	margin-top: 10px;
 }
-#right #li {
-  width: 120px;
-  list-style: none;
-  padding: 0;
+
+#right ul{
+	list-style-image: url("Slike/card.jpg");
 }
+
 #turniri section{
 	position: relative;
 	float: left;
@@ -290,3 +291,4 @@ margin-right: 25px;
 #turniri section button:hover{
 		background-image: url("file:///C:/Users/LavaGolem/Documents/GitHub/YuGiOhTurniri/Slike/Zatamljeno.jpg");
 }
+
