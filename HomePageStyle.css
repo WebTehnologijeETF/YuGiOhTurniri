@@ -66,7 +66,7 @@
 	margin: 0px;
 }
 .menu li{
-	background-image: url("file:///C:/Users/LavaGolem/Documents/WT/Slike/Silver.jpg");
+	background-image: url("file:///C:/Users/LavaGolem/Documents/GitHub/YuGiOhTurniri/Slike/Silver.jpg");
 	display: inline;
 	border-top :2px solid lightgray;
 	border-right:  :2px solid lightgray;
@@ -88,7 +88,7 @@
 }
 
 .menu #home{
-	background-image: url("file:///C:/Users/LavaGolem/Documents/WT/Slike/Zatamljeno.jpg");
+	background-image: url("file:///C:/Users/LavaGolem/Documents/GitHub/YuGiOhTurniri/Slike/Zatamljeno.jpg");
 
 }
 .menu #home a{
@@ -96,7 +96,7 @@
 
 }
 .menu li:hover{
-	background-image: url("file:///C:/Users/LavaGolem/Documents/WT/Slike/Zatamljeno.jpg");
+	background-image: url("file:///C:/Users/LavaGolem/Documents/GitHub/YuGiOhTurniri/Slike/Zatamljeno.jpg");
 
 }
 .menu #events a{
@@ -256,7 +256,7 @@ margin-right: 25px;
 	margin-right: 25px;
 }
 #turniri section button{
-	background-image: url("file:///C:/Users/LavaGolem/Documents/WT/SLike/Silver.jpg");
+	background-image: url("file:///C:/Users/LavaGolem/Documents/GitHub/YuGiOhTurniri/SLike/Silver.jpg");
 	width:100px;
 	height:40px;
 	border-radius: 10px;
@@ -265,5 +265,5 @@ margin-right: 25px;
 	margin-left: 156.25px;
 }
 #turniri section button:hover{
-		background-image: url("file:///C:/Users/LavaGolem/Documents/WT/Slike/Zatamljeno.jpg");
+		background-image: url("file:///C:/Users/LavaGolem/Documents/GitHub/YuGiOhTurniri/Slike/Zatamljeno.jpg");
 }
