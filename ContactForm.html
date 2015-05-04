@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-		<meta charset="UTF-8">
-		<link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
-			<link href="HomePageStyle.css" rel="stylesheet">
-								    <SCRIPT src="javascript.js"></SCRIPT>
-</head>
-	<body ><img src="Slike/Yu-Gi-Oh!2.jpg" id="bg" alt="">
+<img src="Slike/Yu-Gi-Oh!2.jpg" id="bg" alt="">
 		
 		<div class ="logo_class">
 			<img src="Slike/index3.png" id="logo">
@@ -14,19 +6,19 @@
 		</div>
 		
 		<div class="persona_nav">
-			<div id="sign_out"><a href="RegisterForm.html">Sign Out</a></div>
+			<div id="sign_out"><a onclick="otvori('RegisterFormW.html')">Sign Out</a></div>
 			<div id="profile_icon"><a href=""><img src="Slike/prof_pic5.png"></a></div>
 			<div id="message_icon"> <a href=""><img src="Slike/message1.png"></a></div>
-			<div id="search_text"><input type="search" placeholder="search friend..."></div>
+			<div id="search_text"><input type="text" placeholder="search friend..."></div>
 			<div id="search_im"><a href=""><img src="Slike/search2.png"></a></div>
 		</div>
 		
 		<ul class="menu">
-			<li id="home"><a href="HomePage.html">Home Page </a></li>
-			<li id="events"><a href="EventsForm.html">Events </a></li>
+			<li id="home"><a onclick="otvori('HomePageW.html')">Home Page </a></li>
+			<li id="events"><a onclick="otvori('EventsFormW.html')">Events </a></li>
 			<li id="rang"><a href="">Rang List </a></li>
-			<li id="banlist"><a href="BanListPage.html">Current Banlist </a></li>
-			<li id="about"><a href="ContactForm.html">Contact Us</a></li>
+			<li id="banlist"><a onclick="otvori('BanListPageW.html')">Current Banlist </a></li>
+			<li id="about"><a onclick="otvori('ContactFormW.html')">Contact Us</a></li>
 		</ul>
 		<ul id= "drop_down_list" >
 			<li onclick="spusti('1',event)" >Januar 2015
@@ -167,5 +159,3 @@
 
 
 
-</body>
-</html>

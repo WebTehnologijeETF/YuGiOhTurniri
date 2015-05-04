@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<HTML>
-	<head>
-
-				<link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
-			<link href="HomePageStyle.css" rel="stylesheet">
-	</head>
-	<body ><img src="Slike/Yu-Gi-Oh!2.jpg" id="bg" alt="">
+<img src="Slike/Yu-Gi-Oh!2.jpg" id="bg" alt="">
 
 		<div class ="logo_class">
 			<img src="Slike/index3.png" id="logo">
@@ -13,7 +6,7 @@
 		</div>
 		
 		<div class="persona_nav">
-			<div id="sign_out"><a href="RegisterForm.html">Sign Out</a></div>
+			<div id="sign_out"><a onclick="otvori('RegisterFormW.html')">Sign Out</a></div>
 			<div id="profile_icon"><a href=""><img src="Slike/prof_pic5.png"></a></div>
 			<div id="message_icon"> <a href=""><img src="Slike/message1.png"></a></div>
 			<div id="search_text"><input type="text" placeholder="search friend..."></div>
@@ -21,11 +14,11 @@
 		</div>
 		
 		<ul class="menu">
-			<li id="home"><a href="HomePage.html">Home Page </a></li>
-			<li id="events"><a href="EventsForm.html">Events </a></li>
+			<li id="home"><a onclick="otvori('HomePageW.html')">Home Page </a></li>
+			<li id="events"><a onclick="otvori('EventsFormW.html')">Events </a></li>
 			<li id="rang"><a href="">Rang List </a></li>
-			<li id="banlist"><a href="BanListPage.html">Current Banlist </a></li>
-			<li id="about"><a href="ContactForm.html">Contact Us</a></li>
+			<li id="banlist"><a onclick="otvori('BanListPageW.html')">Current Banlist </a></li>
+			<li id="about"><a onclick="otvori('ContactFormW.html')">Contact Us</a></li>
 		</ul>
 				<ul id= "drop_down_list" >
 			<li onclick="spusti('1',event)" >Januar 2015
@@ -117,78 +110,39 @@
 
 		<div class="container">
 			<h2> Monster/Effect </h2>
-			<table id="mons">
+			<table id="karte">
 				<tr>
+					<th>Type </th>
   					<th>Card Name</th>
-  					<th>Advanced Format</th>
-  					<th>Traditional Format</th>
-				</tr>
-				<tr>
-					<td>BLASTER, DRAGON RULER OF INFERNOS</td>
-					<td>Forbidden</td>
-					<td>Limited</td>
-				</tr>
-				<tr>
-					<td>CHAOS EMPEROR DRAGON - ENVOY OF THE END</td>
-					<td>Forbidden</td>
-					<td>Limited</td>
-				</tr>
-				<tr>
-					<td>CYBER JAR</td>
-					<td>Forbidden</td>
-					<td>Limited</td>
-				</tr>
-			</table>
-
-			<h2>Spell Cards </h2>
-			<table id="spell">
-				<tr>
-  					<th>Card Name</th>
-  					<th>Advanced Format</th>
-  					<th>Traditional Format</th>
-				</tr>
-				<tr>
-					<td>BRAIN CONTROL</td>
-					<td>Forbidden</td>
-					<td>Limited</td>
-				</tr>
-				<tr>
-					<td>HARPIE'S FEATHER DUSTER</td>
-					<td>Forbidden</td>
-					<td>Limited</td>
-				</tr>
-				<tr>
-					<td>CARD DESTRUCTION</td>
-					<td>Forbidden</td>
-					<td>Limited</td>
+  					<th>Limmitation</th>
+  					<th>Image</th>
+  					<th>Link</th>
 				</tr>
 
 			</table>
 
-			<h2>Trap Cards </h2>
-			<table id="trap">
-				<tr>
-  					<th>Card Name</th>
-  					<th>Advanced Format</th>
-  					<th>Traditional Format</th>
-				</tr>
-				<tr>
-					<td>IMPERIAL ORDER</td>
-					<td>Forbidden</td>
-					<td>Limited</td>
-				</tr>
-				<tr>
-					<td>RETURN FROM THE DIFFERENT DIMENSION</td>
-					<td>Forbidden</td>
-					<td>Limited</td>
-				</tr>
-				<tr>
-					<td>SELF-DESTRUCT BUTTON</td>
-					<td>Forbidden</td>
-					<td>Limited</td>
-				</tr>
+			<section id ="dodajKartu">
+				<section id = "tip">
+					<p> Tip: </p>
+					<input type="text"  id ="tip_karte" onblur="slova('tip_karte)">	
+				</section> 
+				<section id = "naziv">
+					<p> Naziv: </p>
+					<input type="text"  id ="naziv_karte" onblur="slova('naziv_karte')">	
+				</section> 
 
-			</table>
+				<section id="kolicina">
+					<p>Dozvoljeno: </p>
+					<input type="text"  id ="broj_karata" onblur="kolicina('broj_karata')">
+				</section>
+				<section id="slika">
+					<p> Link slike: </p>
+					<input type="text"  id ="link_slike">
+				</section>
+				<section id="link">
+					<p> Link karte: </p>
+					<input type="text"  id ="link_karte">
+				</section>
+				<button type="button" id="dodaj_kartu" onclick=""> Dodaj Kartu</button>
+			</div>
 		</div>
-	</body>
-</HTML>

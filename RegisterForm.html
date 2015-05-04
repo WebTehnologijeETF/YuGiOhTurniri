@@ -1,12 +1,4 @@
-<<!DOCTYPE html>
-<html>
-<head>
-	<link href="HomePageStyle.css" rel="stylesheet">
-	<link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
-	<SCRIPT src="javascript.js"></SCRIPT>
-	<title>Registarska Forma</title>
-</head>
-<body><img src="Slike/Yu-Gi-Oh!2.jpg" id="bg" alt="">
+<img src="Slike/Yu-Gi-Oh!2.jpg" id="bg" alt="">
 	
 	<div class ="logo_class">
 		<img src="Slike/index3.png" id="logo">
@@ -22,6 +14,14 @@
 			<section id="prezime">
 				<p> Last name: </p>
 				<input type="text"  id ="_prezime" onblur="slova('_prezime')">	
+			</section>
+			<section id="mjesto_">
+				<p> Mjesto: </p>
+				<input type="text"  id ="mjesto">	
+			</section>
+			<section id="opstina_">
+				<p> Opstina: </p>
+				<input type="text"  id ="opstina" onblur="mjesto_test()">	
 			</section>
 			<section id="email">
 				<p>E-mail address: </p>
@@ -44,7 +44,7 @@
 				<input type="text"  id ="pass2" onblur="password()">	
 			</section>
 		</section>
-		<button type="button" id="sign_up" onclick="home_page()"> Sign up</button>
+		<button type="button" id="sign_up" onclick="otvori('HomePageW.html')"> Sign up</button>
 	</article>
 	<article id="log">
 
@@ -54,7 +54,5 @@
 				<input type="text"  id ="username" placeholder ="username">	
 				<input type="text"  id ="password" placeholder ="password">	
 			</section>
-			<button type="button" id="sign_in" onclick="home_page()"> Sign in</button>
+			<button type="button" id="sign_in"  onclick="otvori('HomePageW.html')"> Sign in</button>
 	</article>
-</body>
-</html>
